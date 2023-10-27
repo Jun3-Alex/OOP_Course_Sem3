@@ -1,8 +1,8 @@
-package ru.gb.oseminar.view;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.view;
 
-import ru.gb.oseminar.data.Student;
-import ru.gb.oseminar.data.StudentGroup;
-import ru.gb.oseminar.data.User;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.Student;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.StudentGroup;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.User;
 
 import java.util.List;
 import java.util.logging.Logger;

@@ -1,4 +1,4 @@
-package ru.gb.oseminar.data;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data;
 
 import java.util.Iterator;
 import java.util.List;
@@ -15,7 +15,7 @@ public class StudentGroupIterator implements Iterator<Student> {
 
     @Override
     public boolean hasNext() {
-        return counter < students.size() - 1;
+        return counter < students.size();
     }
 
     @Override
@@ -23,7 +23,6 @@ public class StudentGroupIterator implements Iterator<Student> {
         if (!hasNext()){
             return null;
         }
-        counter++;
-        return students.get(--counter);
+        return students.get(counter++);
     }
 }

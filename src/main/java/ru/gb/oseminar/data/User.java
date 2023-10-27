@@ -1,4 +1,4 @@
-package ru.gb.oseminar.data;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data;
 
 import java.time.LocalDate;
 
@@ -54,7 +54,7 @@ public class User {
                ", secondName='" + secondName + '\'' +
                ", patronymic='" + patronymic + '\'' +
                ", dateOfBirth=" + dateOfBirth +
-               '}';
+                "}\n";
     }
 
     @Override

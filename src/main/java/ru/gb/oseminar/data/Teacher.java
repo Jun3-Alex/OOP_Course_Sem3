@@ -1,14 +1,16 @@
-package ru.gb.oseminar.data;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data;
 
 import java.time.LocalDate;
 import java.util.Comparator;
+
 
 public class Teacher extends User{
 
     private Long teacherId;
 
-    public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
+    public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth, Long teacherId) {
         super(firstName, secondName, patronymic, dateOfBirth);
+        this.teacherId = teacherId;
     }
 
     public Long getTeacherId() {
@@ -18,6 +20,8 @@ public class Teacher extends User{
     public void setTeacherId(Long teacherId) {
         this.teacherId = teacherId;
     }
+
+
 
     public static class TeacherComparator implements Comparator {
         @Override

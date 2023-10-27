@@ -1,4 +1,4 @@
-package ru.gb.oseminar.data;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data;
 
 import java.time.LocalDate;
 
@@ -30,7 +30,7 @@ public class Student extends User implements Comparable<Student>{
                ", secondName='" + super.getSecondName() + '\'' +
                ", patronymic='" + super.getPatronymic() + '\'' +
                ", dateOfBirth=" + super.getDateOfBirth() +
-               '}';
+                "}\n";
     }
 
     @Override

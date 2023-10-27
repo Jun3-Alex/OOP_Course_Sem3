@@ -1,9 +1,9 @@
-package ru.gb.oseminar.data;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data;
 
 import java.util.List;
 
 public class StudentGroup implements Iterable<Student>{
-    private List<Student> students;
+      private List<Student> students;
     private Teacher teacher;
 
     public StudentGroup(Teacher teacher, List<Student> students) {
@@ -32,7 +32,7 @@ public class StudentGroup implements Iterable<Student>{
         return "StudentGroup{" +
                "students=" + students +
                ", teacher=" + teacher +
-               '}';
+                "}\n";
     }
 
     @Override

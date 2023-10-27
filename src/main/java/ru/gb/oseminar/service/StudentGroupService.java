@@ -1,9 +1,9 @@
-package ru.gb.oseminar.service;
+package OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.service;
 
-import ru.gb.oseminar.data.Student;
-import ru.gb.oseminar.data.StudentComparator;
-import ru.gb.oseminar.data.StudentGroup;
-import ru.gb.oseminar.data.Teacher;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.Student;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.StudentComparator;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.StudentGroup;
+import OOP_Course.Lesson3.OOPSeminar3.src.main.java.ru.gb.oseminar.data.Teacher;
 
 import java.util.ArrayList;
 import java.util.Collections;
